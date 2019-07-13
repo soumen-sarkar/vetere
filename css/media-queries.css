@@ -1,0 +1,183 @@
+/*Extra large device (Desktops)*/
+@media (min-width: 1200px) and (max-width: 1920px) {
+	
+}
+/*Medium device (Desktops)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.listing ul li {
+		font-size: 18px;
+	}
+	.listing ul li:nth-child(odd) {
+		padding: 11px 13px;
+	}
+	.listing ul li:nth-child(even) {
+		padding: 11px 13px;
+	}
+	.btn-red {	
+		font-size: 18px;
+		padding: 9px 29px;
+	}
+	.tabLink {
+		padding: 7px;
+	}
+	.tabLink li a {
+		font-size: 18px;
+		padding: 0 19px;
+	}
+}
+/*Small device (Tablets)*/
+@media (max-width: 991px) {
+	.listing .img-thumbnail {
+		width: 100%;
+	}
+	.tabLink li a {
+		font-size: 22px;
+	}
+	.tabLink li {
+		margin-bottom: 33px;
+	}
+	.tabLink li.active a:after {
+		border-top: 17px solid #b00d0d;
+		border-left: 25px solid transparent;	
+		border-right: 25px solid transparent;
+		content: "";
+		position: absolute;
+		left: 50%;
+		bottom: -17px;
+		margin-left: -25px;
+		height: 17px;
+		width: 50px;
+	}
+}
+/*Extra small device (Phones)*/
+@media (max-width: 767px) {
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 26px;
+	}
+	h3 {
+		font-size: 24px;
+	}
+	h4 {
+		font-size: 22px;
+	}
+	h5 {
+		font-size: 20px;
+	}
+	h6 {
+		font-size: 18px;
+	}
+	p, ul, ol {
+		font-size: 18px;
+	}
+	.logo {		
+		padding-top: 16px;
+		padding-bottom: 9px;
+	}	
+	.navbar-toggle {
+		padding: 0;
+	}
+	#navbar .navbar-nav {
+		background-color: #aaaaaa;
+	}
+	#navbar > .nav > li {
+		display: block;
+	}
+	#navbar > .nav > li > a {
+		text-align: left;
+		font-size: 18px;
+	}
+	#navbar > .nav > li > a:hover,
+	#navbar > .nav > li > a:focus {
+		color: #ffffff;
+		background-color: #000000;
+	}
+	#navbar > .nav > li.active > a::after {
+		border: none;
+	}
+	.listing .img-thumbnail {
+		width: 100%;
+	}
+	.listingImage {
+		padding-right: 15px;
+	}
+	.listingInfo {
+		padding-left: 15px;
+	}
+	.listing ul li {
+		font-size: 18px;
+	}
+	.listing ul li:nth-child(odd) {
+		padding: 11px 13px;
+	}
+	.listing ul li:nth-child(even) {
+		padding: 11px 13px;
+	}
+	.btn-red,
+	.btn-black {	
+		font-size: 18px;
+		padding: 9px 29px;
+		margin-bottom: 9px;
+	}
+	.testimonialWraper .prev {
+		left: -7px;
+	}
+	.testimonialWraper .next {
+		right: -7px;
+	}
+	.socialMedia li {
+		margin: 0 5px;
+	}
+	.blackBox input[type=tel] {
+		margin-bottom: 15px;
+	}
+	.sold {
+		right: 18px;
+	}
+	.testimonialsPageWide .testimonials .item {
+		padding: 13px;
+	}
+	.gallery img {
+		width: 100%;
+	}
+	.propertyAddress h1 {
+		margin-bottom: 13px;
+	}
+	.description {
+		margin-top: 30px;
+	}
+	.tabLink {
+		margin: 0 15px 30px;
+	}
+	.tabLink li {
+		display: block;
+		margin-bottom: 23px;
+	}
+	.tabLink li a {
+		border-right: none;
+		font-size: 18px;
+		padding: 0 13px;
+	}
+	.tab-content {
+		margin: 0 15px;
+	}
+	.mortageCalculator {
+		overflow-x: scroll;
+		margin-bottom: 30px;
+	}
+	.mortageCalculator div#mlcalc-w1 div#mlcalc-w2 div#mlcalc-w3 div#mlcalc-w4 div#mlcalc-w5 div#mlcalc-pres {
+		width: 450px;
+	}
+	.taxCalculator {
+		margin-bottom: 30px;
+	}
+	.contact {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.addressBox h4 {
+		margin-bottom: 30px;
+	}
+}

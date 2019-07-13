@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Welcome to our site</title>
+
+<!-- Bootstrap CSS-->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<!-- Custom CSS -->
+<link href="css/global-style.css" rel="stylesheet" type="text/css">
+<!-- Media queries CSS -->
+<link href="css/media-queries.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<!-- Wrapper start -->
+<div class="wrapper">
+
+<!-- Header start -->
+    <header class="headerWide">
+        <div class="container header">
+            <div class="row">
+            	<div class="col-sm-12">
+                	<a href="index.html" class="logo"><img src="img/logo.jpg" alt="The Vetere Team" title="The Vetere Team" class="img-responsive center-block"/></a>
+                </div>
+                <div class="col-sm-12 text-center visible-xs">
+                    <button data-target="#navbar" data-toggle="collapse" class="navbar-toggle" type="button">
+                    	<i class="fa fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+            	<div class="col-sm-12">
+                	<div class="collapse navbar-collapse" id="navbar">
+                        <ul class="nav navbar-nav">                            	
+                            <li><a href="listing.html">Listings</a></li>
+                            <li><a href="testimonials.html">Testimonials</a></li>
+                            <li><a href="featuredNeighbourhood.html">Featured Neighbourhood</a></li>
+                            <li><a href="buyers.html">For Buyers</a></li>
+                            <li><a href="sellers.html">For Sellers</a></li>
+                            <li class="active"><a href="resources.html">Free Resources</a></li>
+                            <li><a href="contact.html">Contact</a></li>                                           
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- Header end -->
+
+<!-- Banner start -->    
+    <section class="bannerWide">
+            <div class="inner-carousel">
+                   <img src="img/sliderImages/slide4.jpg" alt="Banner" title="Banner"/>
+            </div>
+    </section>
+<!-- Banner end -->
+
+<!-- Free resources area start -->
+    <section class="resourcesWide">
+        <div class="container resources">
+            <div class="row">
+            		<!-- Tabs start -->
+                    <div role="tabpanel">                    
+                    <!-- Nav tabs -->
+                    <ul class="tabLink">
+                        <li class="active"><a href="#etvaluation" data-toggle="tab">Free Home Etvaluation</a></li>
+                        <li><a href="#mortageCalculator" data-toggle="tab">Mortage Calculator</a></li>
+                        <li><a href="#taxCalculator" data-toggle="tab">Land Transfer Tax Calculator</a></li>
+                        <li><a href="#govPrograms" data-toggle="tab">Government Programs</a></li>
+                    </ul>                    
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="etvaluation">
+                        	<div class="row">
+                            	<form class="form-horizontal">
+                            	<div class="col-sm-6">
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Name</label>
+                                        <div class="col-sm-7">
+                                        	<input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Daytime Phone</label>
+                                        <div class="col-sm-7">
+                                        	<input type="tel" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Evening Phone</label>
+                                        <div class="col-sm-7">
+                                        	<input type="tel" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Email</label>
+                                        <div class="col-sm-7">
+                                        	<input type="email" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Street Address</label>
+                                        <div class="col-sm-7">
+                                        	<input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">City</label>
+                                        <div class="col-sm-7">
+                                        	<input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Province</label>
+                                        <div class="col-sm-7">
+                                        	<input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Postal Code</label>
+                                        <div class="col-sm-7">
+                                        	<input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Purpose of evaluation</label>
+                                        <div class="col-sm-7">
+                                        	<select class="form-control">
+                                            	<option>Select</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">When do you plan on selling?</label>
+                                        <div class="col-sm-7">
+                                        	<input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                	<div class="form-group">
+                                    	<label class="col-sm-5 control-label">Description of home</label>
+                                        <div class="col-sm-7">
+                                        	<textarea class="form-control" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Style of home</label>
+                                        <div class="col-sm-7">
+                                        	<input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Approx. square ft.</label>
+                                        <div class="col-sm-7">
+                                        	<input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Type of heating</label>
+                                        <div class="col-sm-7">
+                                        	<select class="form-control">
+                                            	<option>Select</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Approx. age of home</label>
+                                        <div class="col-sm-7">
+                                        	<input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Number of bedrooms</label>
+                                        <div class="col-sm-7">
+                                        	<input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Number of bathrooms</label>
+                                        <div class="col-sm-7">
+                                        	<input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Fireplaces</label>
+                                        <div class="col-sm-7">
+                                        	<input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Basement</label>
+                                        <div class="col-sm-7">
+                                        	<select class="form-control">
+                                            	<option>Select</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">Pool</label>
+                                        <div class="col-sm-7">
+                                        	<select class="form-control">
+                                            	<option>Select</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<label class="col-sm-5 control-label">List special features of your propoerty</label>
+                                        <div class="col-sm-7">
+                                        	<textarea class="form-control" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    	<div class="col-sm-12">
+                                    		<button type="button" class="btn btn-red pull-right">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                </form>
+                        	</div>
+                        </div>
+                        <div class="tab-pane" id="mortageCalculator">
+                        	<div class="row">
+                            	<div class="col-lg-5 mortageCalculator">
+                                    <div id="mlcalc-w1">
+                                    <div id="mlcalc-w2">
+                                    <div id="mlcalc-w3">
+                                    <div id="mlcalc-w4">
+                                    <div id="mlcalc-w5">
+                                    <link rel="stylesheet" type="text/css" media="screen,projection" href="https://www.mortgageloan.com/sites/all/themes/mortgageloan/css/tool/mlcalc-inline.css">
+                                    <div id="mlcalc-pres">
+                                    <h2 id="mlcalc-head">
+                                    <em>19 Mortgage Calculators</em> <em><a href="https://www.mortgageloan.com/widgets/#tool-num-4" rel="nofollow" target="_blank">Get this Widget</a><span></span></em>
+                                    </h2><iframe id="mlcalc-calc" src="https://www.mortgageloan.com/tool/mortgage/mortgage-calculator-package-content" scrolling="no" border="0" frameborder="0"></iframe>
+                                    <p style="background: none repeat scroll 0 0 #EEEEEE; color: #797878; font: 10px/1 Verdana,Helvetica,Arial,sans-serif; margin: 0; padding: 8px 16px; text-align: center;">
+                                    <a href="https://www.mortgageloan.com/" style="color: #515151; display: inline; font-family: arial,verdana,tahoma,helvetica,sans-serif; font-size: 7pt; font-style: normal; font-weight: normal; text-decoration: none;">MortgageLoan.com</a>
+                                    </p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-7">
+                                	<h5>Mortgage Calculator</h5>
+                                    <p>Our mortgage calculator helps you work out the mortgage payment plan that is right for you. The calculator is for demonstration purposes only and may not reflect actual numbers for your mortgage.</p>
+                                    <p>Assumes constant interest rate throughout amortization period; interest calculated semi-annually not in advance for fixed interest rate mortgages, and monthly for variable interest rate mortgages.</p>
+                                    <p>Mortgage prepayments (e.g. additional payments) may be subject to a compensation charge.</p>
+                                    <p>Cost for Mortgage Critical Illness and Life Insurance is not included in this calculation.</p>
+                                    <p>For more detailed information, speak to us about your options.</p>
+                                </div>	
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="taxCalculator">
+                        	<div class="row">
+                            	<div class="col-md-5 taxCalculator">                                    
+								 <iframe src="http://www.torontorealestateboard.com/buying/LTT_calculator/ltt_calculator.htm" width="100%" height="425px"  style="border: 1px solid #b4b4b4"></iframe>
+                                </div>
+                                <div class="col-md-7">
+                                	<h5>LAND TRANSFER TAX CALCULATOR</h5>
+                                    <p>Our Land Transfer Tax calculator helps you work out an approximation of what your land transfer taxes might be.</p>
+                                    <p>The calculator is for demonstration purposes only and may not reflect actual numbers for your land transfer taxes.</p>
+                                    <p>For more detailed information, speak to us about your options.</p>
+                                </div>	
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="govPrograms">
+                        	<div class="row">
+                            	<div class="col-sm-5 col-sm-offset-1">                                    
+								 	<h5>FIRST TIME HOME BUYERS</h5>
+                                    <ul class="govPrograms">
+                                    	<li><a href="pdf/govprog_first_time_home_buyer.pdf" target="_blank">First Time Home Buyers Tax Credit </a></li>
+                                        <li><a href="pdf/govprog_rrspplan.pdf" target="_blank">RRSP Home Buyers Plan</a></li>
+                                        <li><a href="pdf/govprog_fivedown.pdf" target="_blank">4% Down Payment Program</a></li>
+                                        <li><a href="pdf/govprog_hstrebate.pdf" target="_blank">HST New Housing Rebate</a></li>
+                                        <li><a href="pdf/govprog_landtransfertax.pdf" target="_blank">Land Transfer Tax Rebates</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                	<h5>PROGRAMS & REGULATIONS FOR HOME OWNERS</h5>
+                                    <ul class="govPrograms">
+                                    	<li><a href="pdf/govprog_healthyhome.pdf" target="_blank">Ontario Health Homes Renovation Tax Credit</a></li>
+                                        <li><a href="pdf/govprog_drinkingwater.pdf" target="_blank">Drinking Water Test Program</a></li>
+                                        <li><a href="pdf/govprog_rehabassist.pdf" target="_blank">Residential Rehabilitation Assistance Program</a></li>
+                                        <li><a href="pdf/govprog_smokealarm.pdf" target="_blank">New Smoke Alarm Requirements</a></li>
+                                    </ul>
+                                </div>	
+                            </div>
+                        </div>
+                    </div>                    
+                    </div>
+                	<!-- Tabs end -->                
+            </div>
+        </div>
+    </section>
+<!-- Free resources area end -->
+
+
+<!-- Footer start -->
+    <div class="footerWide">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <img src="img/RealtyExecLogo.png" alt="Realty Exec" title="Realty Exec"/>
+                    <p>&copy; 2014 The Vetere Team of REALTY EXECUTIVES PLUS LTD.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Footer end -->
+
+</div>
+<!-- Wrapper end -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.js"></script>
+<!-- Script for detects HTML5 and CSS3 features in the user’s browser -->
+<script src="js/modernizr.js"></script>
+<!-- Include all compiled plugins, or include individual files as needed -->
+<script src="js/bootstrap.js"></script>
+<!-- Jquery UI -->
+<script src="js/jquery-ui.js"></script>
+<!-- Script equal height -->
+<script src="js/equal-height.js"></script>
+<!-- Script for testimonial -->
+<script src="js/carousel.js"></script>
+<!-- Script for custom -->
+<script src="js/custom-script.js"></script>
+
+
+
+</body>
+</html>
